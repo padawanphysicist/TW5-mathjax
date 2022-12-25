@@ -62,7 +62,8 @@ Add LaTeX support through MathJax.
                                 // create a new instance of `MutationObserver` named `observer`,
                                 // passing it a callback function
                                 const observer = new MutationObserver(() => {
-                                    MathJax.startup.document.state(0);
+                                    MathJax.typesetClear()
+                                    MathJax.startup.document.state(0);                                    
                                     MathJax.texReset();
                                     MathJax.typeset();
                                 });
