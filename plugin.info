@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/padawanphysicist/mathjax",
+	"description": "MathJax LaTeX plugin",
+	"author": "Victor Santos",
+	"version": "0.0.1",
+	"core-version": ">=5.0.8",
+	"source": "https://github.com/padawanphysicist/TW5-mathjax",
+	"plugin-type": "plugin"
+}
